@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #FBEAFF;
+}
+
+#navbar {
+    display: flex;
+    background-color: #B39CD0;
+    height: 200px;
+}
+
+#logo {
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #B39CD0;
+}
+
+#navbarcont {
+    padding-top: 45px;
+    padding-left: 25rem;
+    background-color: #B39CD0;
+    
+}
+
+#one {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    background-color: #B39CD0;
+}
+
+#two {
+    padding-left: 90px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #B39CD0;
+}
+
+#Container {
+    padding-top: 5rem;
+}
+
+#ContainerHeading {
+    padding-left: 32rem;
+    font-weight: 700;
+}
+
+#Girl {
+    padding-left: 8.7rem;
+    padding-top: 2.5rem;
+    height: 500px;
+    width: 80%;
+    
+    
+
+}
+
+#Form {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    font-size: 2rem;
+    height: 50px;
+}
+
+
+#name, #phonenumber, #email {
+    border-radius: 5px;
+    width: 200px;
+    align-items: center;
+
+}
+
+marquee {
+    padding: 3rem;
+    font: 1.3em sans-serif;
+    font-weight: 700;
+    width: 90%;
+}
+
+
+#header {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 38rem;
+}
+
+#donate {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 44rem;
+    padding-top: 2rem;
+}
+
+#price {
+    margin-left: 45rem;
+    margin-top: 2rem;
+    line-height: 2.8;
+    background-color: white;
+}
+
+button {
+    margin-left: 46rem;
+    margin-top: 2rem;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: white;
+    z-index: 1;
+    background: #845EC2;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: white;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #845EC2;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+   backgroundsix{
+    background-image: url("https://images.wallpapersden.com/image/download/gradient-rainbow-5k_a2psZmiUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-size:cover;
+    height:80%;
+    margin-top: 80px;
+    width:100%;
+    
+  }
+  
+  .image-container{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+  .image-item{
+    width: 300px;
+    height:300px;
+    background-color: lightskyblue;
+    border: 2px solid darkblue;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:100px;
+    left:8%;
+  
+  }
+  
+  #image-item-1{
+    
+    background-image: url("Nancy.jpeg");
+    background-size: cover;
+    border-radius: 500px;
+    position: relative;
+    margin:20px;
+    
+  }
+  #image-item-2{
+   
+    background-image: url("Nayan.jpeg");
+    background-size: cover;
+    border-radius: 500px;
+    position: relative;
+    margin:20px;
+    
+  }
+  #image-item-3{
+    
+    background-image: url("Prajakta.jpeg");
+    background-size: cover;
+    border-radius: 500px;
+    position: relative;
+    margin:20px;
+    
+  }
+  
+
+  
+  #image-item-4{
+    
+    background-image: url("Monalisa.jpg");
+    background-size: cover;
+    border-radius: 500px;
+    position: relative;
+    margin:20px;
+    
+  }
+  
+  
+  #teams{
+    color:black;
+    font-size: 80px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Pacifico', cursive;
+  
+  }
+
+
+  }
